@@ -82,6 +82,8 @@ return packer.startup(function(use)
 
   use 'NeogitOrg/neogit'
 
+  use {"akinsho/toggleterm.nvim", tag = '*'}
+
   if packer_bootstrap then
     require('packer').sync()
   end

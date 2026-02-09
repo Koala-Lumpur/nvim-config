@@ -21,6 +21,10 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close tab
 keymap.set("n", "<leader>te", ":tabn<CR>") -- go to next tab
 keymap.set("n", "<leader>tq", ":tabp<CR>") -- go to previous tab
 
+keymap.set("n", "<leader>st", "<cmd>ToggleTerm<cr>", { desc = "Toggle Floating Terminal" })
+
+keymap.set("t", "<ESC>", [[<C-\><C-n>]])
+
 -- remapping for Nordic keyboard
 vim.keymap.set('n', 'ø', '[', { noremap = true })
 vim.keymap.set('n', 'æ', ']', { noremap = true })
