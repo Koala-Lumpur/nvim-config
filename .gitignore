@@ -1,0 +1,21 @@
+# --- Compiled/Machine-specific files ---
+# Packer generates this automatically. It contains absolute paths 
+# specific to your computer (e.g., /Users/rasmusnielsen/...)
+# so it will break if you try to use it on another machine.
+plugin/packer_compiled.lua
+
+# --- Temporary/Swap files ---
+*.swp
+*.swo
+*~
+
+# --- Logs ---
+*.log
+
+# --- OS specific ---
+.DS_Store
+
+# --- Undo/Backup/Tags (if you ever enable them in options) ---
+undo/
+backup/
+tags
