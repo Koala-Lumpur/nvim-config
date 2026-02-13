@@ -61,3 +61,6 @@ end, { desc = "Open Neogit tab" })
 keymap.set("n", "<leader>gs", function()
   require("neogit").open({ kind = "split" })
 end, { desc = "Open Neogit split" })
+
+-- fine cmdline
+keymap.set('n', ':', '<cmd>FineCmdline<CR>', {noremap = true})

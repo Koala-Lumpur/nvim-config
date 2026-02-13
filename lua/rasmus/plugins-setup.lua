@@ -84,6 +84,13 @@ return packer.startup(function(use)
 
   use {"akinsho/toggleterm.nvim", tag = '*'}
 
+  use {
+  'VonHeikemen/fine-cmdline.nvim',
+  requires = {
+    {'MunifTanjim/nui.nvim'}
+    }
+  }
+
   if packer_bootstrap then
     require('packer').sync()
   end
